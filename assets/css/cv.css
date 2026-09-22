@@ -1,0 +1,32 @@
+.cv-container {
+  max-width: 900px;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header h2 {
+  margin-top: 5px;
+  color: #555;
+}
+
+.personal-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.personal-info li {
+  margin: 4px 0;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.cv-content h1, .cv-content h2, .cv-content h3 {
+  margin-top: 30px;
+}
