@@ -1,0 +1,28 @@
+{{ define "main" }}
+<link rel="stylesheet" href="/css/cv.css">
+
+<div class="cv-container">
+
+  <header>
+    <h1>{{ .Title }}</h1>
+    <h2>Technical Project Lead — SW Architecture & DevOps Engineering</h2>
+  </header>
+
+  <section class="personal-info">
+    <ul>
+      <li><span class="icon">📌</span> Residence: Barcelona, Spain</li>
+      <li><span class="icon">✉</span> Email: lorenzo.reatini@yahoo.it</li>
+      <li><span class="icon">☎</span> Phone: +39 3773052989</li>
+      <li><span class="icon">🔗</span> <a href="https://linkedin.com/in/lorenzo-reatini-4a73484a">LinkedIn</a></li>
+      <li>Date of Birth: 05/06/1985</li>
+      <li>Place of Birth: Campobasso, Italy</li>
+    </ul>
+  </section>
+
+  <article class="cv-content">
+    {{ .Content }}
+  </article>
+
+</div>
+
+{{ end }}
