@@ -1,0 +1,10 @@
+{
+  "name": "markdown_cv",
+  "version": "1.0.0",
+  "scripts": {
+    "pdf": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
