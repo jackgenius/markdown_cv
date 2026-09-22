@@ -8,10 +8,10 @@ layout: "cv"
 Technical Project Lead — SW Architecture & DevOps Engineering
 
 ## Personal Information
-- **Residence:** Napoli, Italia  
+- **Residence:** Barcelona, Spain  
 - **Date of Birth:** 05/06/1985  
-- **Place of Birth:** Napoli, Italia  
-- **Email:** Lorenzo.reatini@yahoo.it  
+- **Place of Birth:** Campobasso, Italia  
+- **Email:** lorenzo.reatini@yahoo.it  
 - **Phone:** +39 3773052989  
 - **LinkedIn:** https://linkedin.com/in/lorenzo-reatini-4a73484a  
 
