@@ -1,11 +1,11 @@
 baseURL = "https://jackgenius.github.io/markdown_cv/"
-languageCode = "en-us"
+locale = "en-us"
 title = "CV di Lorenzo Reatini"
 
 [outputs]
 home = ["HTML"]
 section = ["HTML"]
-page = ["HTML", "PDF"]
+page = ["HTML"]
 
 [params]
 pdf_output = "pdf/cv.pdf"
