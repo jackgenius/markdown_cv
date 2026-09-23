@@ -32,7 +32,14 @@ jobs:
     - name: Start Hugo server in background
       run: |
         hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/ &
-        sleep 5
+        for i in {1..30}; do
+          if curl -s http://localhost:1313/cv/ > /dev/null; then
+            echo "Hugo is ready"
+            break
+          fi
+          echo "Waiting for Hugo..."
+          sleep 2
+        done
 
     - name: Generate PDF
       run: npm run pdf
